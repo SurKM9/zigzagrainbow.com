@@ -5,8 +5,8 @@ const DisqusComments = (props) => {
   let disqusConfig = {
     url: props.postURL,
     identifier: props.postURL,
-    title: props.postTitle,
-  };
+    title: props.postTitle,    
+  };  
   return (
     <>
       <h1>{props.postTitle}</h1>
