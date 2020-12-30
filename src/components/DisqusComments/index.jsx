@@ -1,17 +1,14 @@
-import React from "react";
-import { Disqus, CommentCount } from "gatsby-plugin-disqus";
+import React from 'react';
+import { Disqus } from 'gatsby-plugin-disqus';
 
 const DisqusComments = (props) => {
-  let disqusConfig = {
+  const disqusConfig = {
     url: props.postURL,
     identifier: props.postURL,
-    title: props.postTitle,    
-  };  
+    title: props.postTitle,
+  };
   return (
     <>
-      <h1>{props.postTitle}</h1>
-      <CommentCount config={disqusConfig} placeholder={"..."} />
-      {/* Post Contents */}
       <Disqus config={disqusConfig} />
     </>
   );

@@ -6,7 +6,6 @@ module.exports = {
   author: 'Suryakiran Maruvada',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  disqusScript: process.env.DISQUS_SCRIPT || 'https://suryakiran_maruvada.disqus.com/embed.js',
   pages: {
     home: '/',
     blog: 'blog',

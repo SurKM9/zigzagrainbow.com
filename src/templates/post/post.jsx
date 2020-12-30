@@ -24,6 +24,12 @@ const Post = ({ data }) => {
     Config.pathPrefix,
     path,
   );
+
+  // removes a '/' at the beginning of the cannonicalurl
+  // something like this : "/https://www.zigzagrainbow.com/blog/qtplugin-dependencies"
+  // disqus comments doesn't work if there is a / at the beginning
+  const strippedCanonicalUrl = canonicalUrl.replace('/', '');
+
   return (
     <Layout className="outerPadding">
       <Layout className="container">
@@ -41,7 +47,7 @@ const Post = ({ data }) => {
               <Img className={style.bannerImg} fluid={fluid} title={excerpt} alt={title} />
             </div>
             <article className={style.blogArticle} dangerouslySetInnerHTML={{ __html: html }} />
-            <DisqusComments postURL={canonicalUrl} postTitle={title} />
+            <DisqusComments postURL={strippedCanonicalUrl} postTitle={title} />
           </div>
         </SidebarWrapper>
       </Layout>

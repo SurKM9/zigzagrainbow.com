@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9af922c1-efce-4761-a37f-3b8db1e46813/deploy-status)](https://app.netlify.com/sites/vibrant-hawking-46566b/deploys)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://rolwinreevan.com">
