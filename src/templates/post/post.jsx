@@ -5,9 +5,7 @@ import Img from 'gatsby-image';
 import Header from '../../components/PageLayout/Header';
 import SidebarWrapper from '../../components/PageLayout/Sidebar';
 import SEO from '../../components/Seo';
-import Comment from '../../components/Comment';
-import Config from '../../../config';
-import Utils from '../../utils/pageUtils';
+import DisqusComments from '../../components/DisqusComments';
 
 import 'prismjs/themes/prism-solarizedlight.css';
 import './highlight-syntax.less';
@@ -19,11 +17,6 @@ const Post = ({ data }) => {
     title, cover: { childImageSharp: { fluid } }, excerpt, path,
   } = frontmatter;
 
-  const canonicalUrl = Utils.resolvePageUrl(
-    Config.siteUrl,
-    Config.pathPrefix,
-    path,
-  );
   return (
     <Layout className="outerPadding">
       <Layout className="container">
@@ -41,7 +34,7 @@ const Post = ({ data }) => {
               <Img className={style.bannerImg} fluid={fluid} title={excerpt} alt={title} />
             </div>
             <article className={style.blogArticle} dangerouslySetInnerHTML={{ __html: html }} />
-            <Comment pageCanonicalUrl={canonicalUrl} pageId={title} />
+            <DisqusComments />
           </div>
         </SidebarWrapper>
       </Layout>
