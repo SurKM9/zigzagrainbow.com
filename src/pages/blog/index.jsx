@@ -14,8 +14,8 @@ const Blog = ({ data }) => (
       <Header />
       <SEO
         title="Blog"
-        description="I like blogging about various web technologies and other stuff related to
-          javascript and other trends like graphql, prisma etc. This blog expresses my views of various technologies
+        description="I like blogging about various C++/Qt technologies and other stuff related to
+          OpenCV, Machine Learning, Tensorflow etc. This blog expresses my views of various technologies
           and scenarios I have come across in realtime."
         path="blog"
       />
