@@ -31,7 +31,7 @@ module.exports = {
     },
     qt: {
       name: 'qt',
-      description: 'Node.js is a tool for executing JavaScript in a variety of environments.',
+      description: 'Qt is a powerful cross platform framework used to build GUIs.',
       color: '#41CD52',
     },
     opencv: {
