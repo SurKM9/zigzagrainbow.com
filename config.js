@@ -20,12 +20,13 @@ module.exports = {
     instagram: 'https://www.instagram.com/surkm9/',
     rss: '/rss.xml',
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT,
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || 'UA-186241167-1',
   tags: {
     cplusplus: {
       name: 'cplusplus',
-      description: 'This is a test.',
+      description: 'C++ is a general purpose programming language and widely used now a days for competitive programming. \
+      It has imperative, object-oriented and generic programming features. C++ runs on lots of platform like Windows, Linux, Unix, Mac etc.',
       color: '#00599C',
     },
     qt: {
@@ -40,7 +41,9 @@ module.exports = {
     },
     cmake: {
       name: 'cmake',
-      description: 'CMake is a build system.',
+      description: 'CMake is an open-source, cross-platform family of tools designed to build, test and package software. \
+      CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and \
+      generate native makefiles and workspaces that can be used in the compiler environment of your choice.',
       color: '#064F8C',
     },
     gatsby: {
