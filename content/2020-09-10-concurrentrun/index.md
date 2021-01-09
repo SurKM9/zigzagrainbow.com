@@ -175,7 +175,7 @@ Running complex and heavy tasks on different threads not only distributes the lo
 
 Here is our demo project output in action:
 
-![Demo](./concurrentrun.gif)
+![concurrentrun](https://user-images.githubusercontent.com/13438870/104109958-4094c200-52d3-11eb-8c2c-99b5c8b85517.gif)
 
 The whole project can be found on my [GitHub](https://github.com/SurKM9/ConcurrentRun) account. If this was helpful, please share this blog and also feel free to add your thoughts or comments below.
 
