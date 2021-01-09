@@ -1,4 +1,3 @@
-/* eslint-disable no-param-reassign */
 const Config = require('../../config');
 
 const Utils = {
@@ -10,7 +9,6 @@ const Utils = {
   resolveUrl: (...paths) => paths.reduce((resolvedUrl, path) => {
     const urlPath = path.toString().trim();
     if (urlPath) {
-      // eslint-disable-next-line no-param-reassign
       resolvedUrl
           += (resolvedUrl === '' ? '' : '/') + urlPath.replace(/^\/|\/$/g, '');
     }
@@ -63,7 +61,6 @@ const Utils = {
   getRelatedTranslations: (post, postList) => postList
     .filter(({ node }) =>
     // Get posts in the same folder of provided post
-      // eslint-disable-next-line implicit-arrow-linebreak
       (
         node.fileAbsolutePath.split('/').slice(-2, -1)[0]
           === post.fileAbsolutePath.split('/').slice(-2, -1)[0]
