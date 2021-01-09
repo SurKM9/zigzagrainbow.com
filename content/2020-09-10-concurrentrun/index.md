@@ -1,10 +1,10 @@
 ---
 title: Run a function in separate thread using QtConcurrent
-tags: [ cplusplus, qt ]
+tags: [cplusplus, qt]
 date: 2020-09-11T9:35:31.137Z
 path: blog/concurrent-run
 cover: ./concurrentrun-thumbnail.jpg
-excerpt: Parallel programming using QtConcurrent.  
+excerpt: Parallel programming using QtConcurrent.
 ---
 
 ## Introduction
@@ -175,7 +175,7 @@ Running complex and heavy tasks on different threads not only distributes the lo
 
 Here is our demo project output in action:
 
-![gif](/assets/concurrentrun/concurrentrun.gif)
+![gif](concurrentrun.gif)
 
 The whole project can be found on my [GitHub](https://github.com/SurKM9/ConcurrentRun) account. If this was helpful, please share this blog and also feel free to add your thoughts or comments below.
 
