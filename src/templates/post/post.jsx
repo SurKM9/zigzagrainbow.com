@@ -6,6 +6,7 @@ import Header from '../../components/PageLayout/Header';
 import SidebarWrapper from '../../components/PageLayout/Sidebar';
 import SEO from '../../components/Seo';
 import DisqusComments from '../../components/DisqusComments';
+import ShareButtons from '../../components/ShareButtons';
 import Config from '../../../config';
 import Utils from '../../utils/pageUtils';
 
@@ -47,6 +48,11 @@ const Post = ({ data }) => {
               <Img className={style.bannerImg} fluid={fluid} title={excerpt} alt={title} />
             </div>
             <article className={style.blogArticle} dangerouslySetInnerHTML={{ __html: html }} />
+            <ShareButtons
+              twitterHandle="SurKM9"
+              title={`${title}`}
+              url={`${strippedCanonicalUrl}`}
+           />
             <DisqusComments postURL={strippedCanonicalUrl} postTitle={title} />
           </div>
         </SidebarWrapper>
