@@ -58,10 +58,10 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="motorcycle.png"
-            alt="motorcycle image"
-            textH4="Love Riding"
-            textH3="Biker for life"
+            img="code.png"
+            alt="code image"
+            textH4="Love Programming"
+            textH3="Coder for life"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
