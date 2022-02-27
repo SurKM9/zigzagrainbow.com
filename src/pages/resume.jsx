@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/* import React, { Component } from 'react';
 import { Document, Page } from 'react-pdf';
 import { Button, Row, Col } from 'antd';
 import SEO from '../components/Seo';
@@ -53,3 +53,4 @@ export default class Resume extends Component {
     );
   }
 }
+ */
