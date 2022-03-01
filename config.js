@@ -10,7 +10,7 @@ module.exports = {
     home: '/',
     blog: 'blog',
     contact: 'contact',
-    resume: 'resume',
+    //resume: 'resume',
     tag: 'tags',
   },
   social: {
