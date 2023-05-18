@@ -1,6 +1,6 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://zigzagrainbow.com',
+  siteUrl: 'https://codeflamingo.eu',
   siteTitle: 'Suryakiran Maruvada',
   siteDescription: 'Logbook of a software developer',
   author: 'Suryakiran Maruvada',

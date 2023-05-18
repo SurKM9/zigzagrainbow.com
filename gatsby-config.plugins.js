@@ -105,7 +105,7 @@ module.exports = [
   {
     resolve: `gatsby-plugin-disqus`,
     options: {
-      shortname: `zigzagrainbow`,
+      shortname: `codeflamingo`,
     },
   },
 ];

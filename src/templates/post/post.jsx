@@ -27,7 +27,7 @@ const Post = ({ data }) => {
   );
 
   // removes a '/' at the beginning of the cannonicalurl
-  // something like this : "/https://www.zigzagrainbow.com/blog/qtplugin-dependencies"
+  // something like this : "/https://www.codeflamingo.eu/blog/qtplugin-dependencies"
   // disqus comments doesn't work if there is a / at the beginning
   const strippedCanonicalUrl = canonicalUrl.replace('/', '');
 
