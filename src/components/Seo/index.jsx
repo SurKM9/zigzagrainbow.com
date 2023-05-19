@@ -11,7 +11,7 @@ const detailsQuery = graphql`
   query DefaultSEOQuery {
     file(name: { eq: "facebook-icon" }) {
       childImageSharp {
-        fixed(width: 600) {
+        fixed(width: 512) {
           ...GatsbyImageSharpFixed_noBase64
         }
       }

@@ -6,9 +6,8 @@ RUN npm i -g gatsby-cli@4.9.0
 
 COPY package*.json ./
 
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 COPY . .
 
-RUN gatsby -v
 RUN gatsby build
